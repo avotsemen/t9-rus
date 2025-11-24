@@ -728,7 +728,7 @@ export class KeyboardRenderer {
           w: btn_width,
           h: btn_height,
           text: prediction,
-          text_size: px(24),
+          text_size: px(25),
           color: is_first_btn ? COLORS.WHITE : 0xA7A7A7,
           align_h: align.CENTER_H,
           align_v: align.CENTER_V

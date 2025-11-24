@@ -246,7 +246,7 @@ Page({
       [
         widget.BUTTON,
         {
-          text: "Перейти в настройки",
+          text: "Настройки",
           normal_color: COLORS.GRAY,
           press_color: COLORS.GRAY,
           click_func() {
@@ -326,7 +326,7 @@ Page({
       [
         widget.TEXT,
         {
-          text: `Нажмите и удерживайте глобус на клавиатуре, а затем выберите ${KEYBOARD_NAME}`,
+          text: `Нажмите и удерживайте глобус для выбора ${KEYBOARD_NAME}`,
           ...default_text_style,
           layout_parent: vc,
           layout: {
@@ -339,7 +339,7 @@ Page({
       [
         widget.BUTTON,
         {
-          text: "Показать клавиатуру",
+          text: "Клавиатура",
           normal_color: COLORS.GRAY,
           press_color: COLORS.GRAY,
           click_func: () => {
@@ -378,7 +378,7 @@ Page({
     this.state.vc = vc;
 
     showToast({
-      content: "У вас все готово",
+      content: "Всё готово",
     });
 
     [
@@ -425,7 +425,7 @@ Page({
       [
         widget.BUTTON,
         {
-          text: "Показать клавиатуру",
+          text: "Клавиатура",
           normal_color: COLORS.GRAY,
           press_color: COLORS.GRAY,
           click_func: () => {

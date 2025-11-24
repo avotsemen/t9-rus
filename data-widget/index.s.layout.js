@@ -8,6 +8,8 @@ const COLOR_BG = 0x2a2a2c;
 const COLOR_WHITE = 0xffffff;
 const COLOR_SEP = 0x555555;
 
+const INPUT_TEXT_SIZE = px(28);
+
 export const styles = {
   bg_fill_rect: {
     x: 0,
@@ -45,7 +47,7 @@ export const styles = {
     w: px(300),
     h: px(50),
     color: COLOR_WHITE,
-    text_size: px(28),
+    text_size: INPUT_TEXT_SIZE,
     align_h: 'left',
     align_v: 'center',
   },
@@ -63,15 +65,15 @@ export const styles = {
     normal_src: null,
     press_src: null,
     text_color: COLOR_WHITE,
-    text_size: px(20),
-    olay_text_size: px(18), // gray overlay
+    text_size: px(24),
+    olay_text_size: px(16), // gray overlay
   },
 
   prediction_bar: {
     x: px(78),
     y: px(0),
     w: px(233),
-    h: px(80),
+    h: px(50),
   },
 
   icons: {
